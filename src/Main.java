@@ -4,9 +4,8 @@ public class Main {
      if (age >=18) {
          System.out.println("Если возраст человека равен " + age + " ,то он совершеннолетний");
      }
-     if (age < 18) {
+     if (age < 18)
          System.out.println("Если возраст человека равен " + age + " ,он не достиг совершеннолетия, нужно немного подождать».");
-     }
 
 
 
@@ -28,7 +27,7 @@ public class Main {
 
         }
 
-        age =12;
+        age = 12;
         if (age >= 2 && age <= 6){
         System.out.println("Если возраст человека равен " + age + " ,то ему нужно ходить в детский сад");
 
@@ -69,9 +68,7 @@ public class Main {
                     if (peopleInTheCarriage <=numberOfStandingSeats){
                         System.out.println("если пришедшие заняли сидячие, то их осталось " + standingSeats + ", остальные- стоячие");
                     }
-                    if (peopleInTheCarriage  >=numberOfStandingSeats){
-                        System.out.println("остались только стоячие места");
-                    }
+                    System.out.println("остались только стоячие места");
 
                 }else{
                     boolean noSeats = numberOfPassengerSeats< peopleInTheCarriage;
